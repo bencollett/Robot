@@ -14,15 +14,7 @@ class PDControl:
         us_pd = us_p*self.error1 - us_d*self.de_dt
         return us_pd
 
-    # def ir_pdcontrol(self, ir_error1, ir_error2, time1, irp): #todo
-    #     self.irp = irp
-    #     ir_d = 0.01
-    #     ir_de = ir_error1 - ir_error2
-    #     ir_dt = time1
-    #     ir_pd = self.irp*ir_error1 - ir_de
-    #     ir_p = self.irp*ir_error1
-    #     return ir_pd
-
+   
 
 
 
